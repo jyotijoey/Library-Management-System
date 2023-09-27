@@ -1,0 +1,113 @@
+{
+ "actions": [],
+ "autoname": "format:{#########}",
+ "creation": "2023-09-27 23:33:02.162733",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "full_name",
+  "id_proof",
+  "full_address",
+  "active",
+  "column_break_2ptue",
+  "mobile_number",
+  "email",
+  "valid_till",
+  "section_break_x6hjt",
+  "amount_due",
+  "paid"
+ ],
+ "fields": [
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Full Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "id_proof",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ID Proof",
+   "reqd": 1
+  },
+  {
+   "fieldname": "full_address",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "label": "Full Address",
+   "reqd": 1
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Mobile Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "active",
+   "fieldtype": "Check",
+   "label": "Active"
+  },
+  {
+   "fieldname": "valid_till",
+   "fieldtype": "Date",
+   "label": "Valid Till",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_2ptue",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_x6hjt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amount_due",
+   "fieldtype": "Float",
+   "label": "Amount Due"
+  },
+  {
+   "default": "0",
+   "fieldname": "paid",
+   "fieldtype": "Check",
+   "label": "Paid"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-28 00:20:26.839437",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Member",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

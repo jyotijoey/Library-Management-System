@@ -26,6 +26,7 @@ bench --site library.test install-app library_management
 
 bench --site library.test list-apps
 
+<!-- setting a dummy password for initial login -->
 bench --site library.test set-admin-password pass@123
 
 bench --site library.test console
